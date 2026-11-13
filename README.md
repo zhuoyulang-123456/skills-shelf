@@ -149,7 +149,9 @@ skills-shelf/
 ├── data/market-summaries.json   # 市场榜单中文摘要
 ├── scripts/build-win.mjs   # 跨平台生成 Windows 安装版 / 免安装版
 ├── build/                  # 图标与图标生成脚本
-└── docs/FEATURES.md        # 功能对照与取舍
+├── docs/FEATURES.md        # 功能清单与设计取舍
+├── docs/screenshots/       # README 截图与社交预览图
+└── CHANGELOG.md            # 版本记录
 ```
 
 </details>
