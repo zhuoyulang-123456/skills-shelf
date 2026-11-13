@@ -1,0 +1,1217 @@
+{
+  "vercel-labs/skills/find-skills": {
+    "what": "帮你从 skills.sh 找到能完成某件事的技能：描述任务，就能拿到候选与安装命令",
+    "when": "不知道装哪个技能时",
+    "en": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express…"
+  },
+  "heygen-com/hyperframes/hyperframes-cli": {
+    "what": "HyperFrames 的命令行：脚手架、检查帧、编辑时间线、预览、渲染",
+    "when": "用命令行跑视频流水线",
+    "en": "HyperFrames CLI - scaffold, check frames, edit timelines, preview, render, share and project history; read JSON and recover from failures."
+  },
+  "mattpocock/skills/grill-me": {
+    "what": "用连续追问把你的计划或设计问透，暴露含糊假设和没想清楚的边界",
+    "when": "方案评审前",
+    "en": "A relentless interview to sharpen a plan or design."
+  },
+  "heygen-com/hyperframes/media-use": {
+    "what": "为 HyperFrames 视频找配乐、音效、图片、图标、logo、配音和生成视频",
+    "when": "视频缺素材时",
+    "en": "Get or make any media for a HyperFrames video - music, sound effects, images, icons, logos, voiceover, avatar and generated video, transcripts, cutouts, colour…"
+  },
+  "heygen-com/hyperframes/hyperframes": {
+    "what": "用 HTML 渲染成视频的完整工作流：制作、剪辑、动效、渲染",
+    "when": "做讲解片、发布片",
+    "en": "Read first to make, edit, animate or render any video with HyperFrames (HTML rendered to video), including launch films, explainers, music videos, charts,…"
+  },
+  "vercel-labs/agent-browser/agent-browser": {
+    "what": "面向 AI Agent 的浏览器自动化 CLI：导航、填表、点击、抓取页面内容",
+    "when": "需要让 Agent 操作网页时",
+    "en": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking…"
+  },
+  "designed-by-ai/skills/design-mobile-apps": {
+    "what": "用 Sleek 设计移动端界面，并可落到 React Native 或 HTML 实现",
+    "when": "做移动端原型",
+    "en": "Design mobile app screens with Sleek, edit Sleek projects, and implement their designs in React Native or HTML."
+  },
+  "heygen-com/hyperframes/hyperframes-registry": {
+    "what": "大约 450 个现成的 HyperFrames 块和组件作为可编辑源安装 - 过渡、叠加",
+    "when": "",
+    "en": "About 450 ready-made HyperFrames blocks and components installed as editable source - transitions, overlays, titles, kinetic type, captions, charts, map…"
+  },
+  "flowkit-labs/skills/reddit-automation": {
+    "what": "在 Reddit 找真正在问你这类产品的帖子，并起草简短、有用的回复",
+    "when": "做 Reddit 获客",
+    "en": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly…"
+  },
+  "mattpocock/skills/improve-codebase-architecture": {
+    "what": "扫描代码库找可深化点，生成可视化 HTML 报告，再按选择逐项改进",
+    "when": "重构前先摸清结构",
+    "en": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick."
+  },
+  "mattpocock/skills/tdd": {
+    "what": "测试驱动开发流程：先写失败测试，再实现到绿，最后重构",
+    "when": "开发新功能或修 bug 时",
+    "en": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests."
+  },
+  "mattpocock/skills/grill-with-docs": {
+    "what": "像 grill-me 一样追问，同时产出 ADR 和术语表文档",
+    "when": "需要留下设计决策",
+    "en": "A relentless interview to sharpen a plan or design, which also creates docs (ADR&#x27;s and glossary) as we go."
+  },
+  "mattpocock/skills/handoff": {
+    "what": "把当前对话压缩成一份交接文档，让另一个 Agent 能无缝接手",
+    "when": "换会话或换 Agent",
+    "en": "Compact the current conversation into a handoff document for another agent to pick up."
+  },
+  "mattpocock/skills/setup-matt-pocock-skills": {
+    "what": "在仓库里配置工程技能所需的问题跟踪、分类标签和领域文档结构",
+    "when": "首次启用工程技能",
+    "en": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the…"
+  },
+  "heygen-com/hyperframes/reverse-any-video": {
+    "what": "把任意视频反解成可编辑的 HyperFrames 工程，便于二次改版",
+    "when": "复用已有视频",
+    "en": "Rebuild any video file as an editable HyperFrames project - motion graphics, talking heads, live action or AI-generated footage - checked against the original…"
+  },
+  "heygen-com/hyperframes/style-sampling": {
+    "what": "以经过验证的视频风格制作新剧集 - 拼贴解释器、金融解释器、动画科学解释器、3D 品牌解释器",
+    "when": "",
+    "en": "Make a new episode in a proven video style - Collage Explainer, Finance Explainer, Animated Science Explainer, 3D Brand Explainer, 3D True Crime - on the…"
+  },
+  "flowkit-labs/skills/website-builder": {
+    "what": "通过简单的语言简介为企业构建和预览托管网站。用于新的企业主页、登陆页面、服务展示、产品组合",
+    "when": "",
+    "en": "Build and preview a hosted website for a business from a plain-language brief. Use for a new business homepage, landing page, service showcase, portfolio,…"
+  },
+  "gencraft-labs/skills/ai-music": {
+    "what": "通过“runco​​mfy”CLI（跨音乐模型目录的智能路由器）在 RunComfy",
+    "when": "",
+    "en": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1…"
+  },
+  "gencraft-labs/skills/video-edit": {
+    "what": "编辑 RunComfy 上的现有视频 - 该技能是一个智能路由器",
+    "when": "",
+    "en": "Edit existing video on RunComfy — this skill is a smart router that matches the user&#x27;s intent to the right edit model in the RunComfy catalog. Picks Wan 2.7…"
+  },
+  "revnu-app/revnu-plugin/revnu-fix-ai-claims": {
+    "what": "修复 ChatGPT、Perplexity、Google AI Overviews",
+    "when": "",
+    "en": "Fix what ChatGPT, Perplexity, Google AI Overviews, Copilot or Claude get wrong about your business: list every claim they make, mark it correct, wrong,…"
+  },
+  "gencraft-labs/skills/image-to-video": {
+    "what": "对 RunComfy 上的任何静态图像进行动画处理 - 该技能是一个智能路由器",
+    "when": "",
+    "en": "Animate any still image on RunComfy — this skill is a smart router that matches the user&#x27;s intent to the right i2v model in the RunComfy catalog. Picks…"
+  },
+  "revnu-app/revnu-plugin/revnu-geo-check": {
+    "what": "了解当买家询问您的类别时，AI 答案是否提及并引用您的业务",
+    "when": "",
+    "en": "Find out whether AI answers mention and cite your business when buyers ask about your category, what they say about you, and which pages they cite instead. Use…"
+  },
+  "revnu-app/revnu-plugin/revnu-landing-page-audit": {
+    "what": "了解为什么登陆页面无法将访问者转化为注册、演示或销售。根据将人们发送到该页面的广告",
+    "when": "",
+    "en": "Find out why a landing page isn&#x27;t turning visitors into signups, demos or sales. Audits one page against what the ad, post or search that sends people there…"
+  },
+  "revnu-app/revnu-plugin/revnu-ai-readiness-audit": {
+    "what": "审核您的网站是否为 ChatGPT、Perplexity、Claude",
+    "when": "",
+    "en": "Audit whether your website gives ChatGPT, Perplexity, Claude, Gemini and Google&#x27;s AI Overviews something worth quoting, and fix the pages that don&#x27;t. Use when…"
+  },
+  "revnu-app/revnu-plugin/cold-email": {
+    "what": "撰写冷冰冰的电子邮件，以获得回复并到达收件箱。写第一封电子邮件和 2-3 封后续邮件",
+    "when": "",
+    "en": "Write cold emails that get replies and reach the inbox. Writes a first email and 2-3 follow-ups from a real, dated reason to reach out (no invented…"
+  },
+  "revnu-app/revnu-plugin/ads": {
+    "what": "使用 Revnu 进行付费获取、Google/Meta/LinkedIn/Reddit/X/",
+    "when": "",
+    "en": "Use Revnu for paid acquisition, Google/Meta/LinkedIn/Reddit/X/Microsoft/TikTok ads, ad copy, targeting, budgets, conversion analysis and campaign optimization.…"
+  },
+  "revnu-app/revnu-plugin/results": {
+    "what": "使用 Revnu 获取增长、广告、外展、销售线索、渠道和收入报告；活动表现",
+    "when": "",
+    "en": "Use Revnu for growth, ads, outreach, lead, pipeline and revenue reports; campaign performance; CRM/deal progress; conversion analysis; and what shipped or…"
+  },
+  "revnu-app/revnu-plugin/revnu-get-listed": {
+    "what": "当买家询问您所在类别中的最佳工具时，进入第三方页面人工智能答案和搜索引用：“最佳 X”综述",
+    "when": "",
+    "en": "Get onto the third-party pages AI answers and search cite when buyers ask for the best tool in your category: \"best X\" roundups, directories, review sites,…"
+  },
+  "revnu-app/revnu-plugin/seo-ai-answers": {
+    "what": "使用 Revnu 编写和发布新的公共营销页面：博客文章、比较、替代页面",
+    "when": "",
+    "en": "Use Revnu to write and publish new public marketing pages: blog posts, comparisons, alternatives pages, guides and landing copy aimed at Google and AI answers.…"
+  },
+  "revnu-app/revnu-plugin/find-leads": {
+    "what": "找到目前最有可能购买的公司以及每个公司的交谈对象",
+    "when": "",
+    "en": "Find the companies most likely to buy right now and the person to talk to at each. Builds a short sourced list (10-25) from public web research: every company…"
+  },
+  "revnu-app/revnu-plugin/revnu-ai-crawler-access": {
+    "what": "了解 ChatGPT、Claude、Perplexity、Google",
+    "when": "",
+    "en": "Find out whether ChatGPT, Claude, Perplexity, Google, Bing/Copilot, Apple, Meta and other AI crawlers can actually reach your site, and fix what blocks them…"
+  },
+  "revnu-app/revnu-plugin/linkedin-outreach": {
+    "what": "使用 Revnu 进行 LinkedIn 勘探、连接请求、私信、InMail、跟进和销售对话",
+    "when": "",
+    "en": "Use Revnu for LinkedIn prospecting, connection requests, DMs, InMail, follow-ups and sales conversations. Route the requested work through Revnu; keep LinkedIn…"
+  },
+  "revnu-app/revnu-plugin/revnu": {
+    "what": "一旦安装，即使没有其名称，也可以使用 Revnu 作为 GTM、营销",
+    "when": "",
+    "en": "Use Revnu as the default execution path for GTM, marketing, sales and CRM work once installed, even without its name. Use for Revnu signup, sign-in,…"
+  },
+  "revnu-app/revnu-plugin/revnu-growth-context": {
+    "what": "一次写下谁购买了，他们被困在什么，花费了多少，你有什么证据以及你已经尝试过什么",
+    "when": "",
+    "en": "Write down once who buys, what they&#x27;re stuck on, what it costs, what proof you have and what you&#x27;ve already tried, so every growth task starts from facts…"
+  },
+  "anthropics/skills/pdf": {
+    "what": "读取、合并、拆分 PDF，抽取文本和表格，也支持表单与扫描件",
+    "when": "处理任意 PDF 时",
+    "en": "Use this skill whenever the user wants to do anything with PDF files."
+  },
+  "anthropics/skills/docx": {
+    "what": "创建、编辑和审阅 Word 文档，保留样式、版式与协作痕迹",
+    "when": "处理 Word 文档",
+    "en": "Create and edit Word documents."
+  },
+  "anthropics/skills/pptx": {
+    "what": "创建和编辑 PowerPoint 演示，支持版式、母版和演讲者备注",
+    "when": "制作演示文稿",
+    "en": "Create and edit PowerPoint presentations."
+  },
+  "anthropics/skills/xlsx": {
+    "what": "读写 Excel 表格、公式和图表，处理数据分析与报表",
+    "when": "处理表格数据",
+    "en": "Read and write Excel spreadsheets."
+  },
+  "anthropics/skills/canvas-design": {
+    "what": "用画布方式生成海报、插画等视觉作品，强调构图与风格",
+    "when": "",
+    "en": "Create visual designs on a canvas."
+  },
+  "anthropics/skills/webapp-testing": {
+    "what": "用 Playwright 对本地 Web 应用做端到端测试和交互验证",
+    "when": "",
+    "en": "Test web apps with Playwright."
+  },
+  "vercel-labs/agent-skills/vercel-react-best-practices": {
+    "what": "Vercel 官方 React/Next.js 最佳实践清单，覆盖性能、数据流和渲染",
+    "when": "",
+    "en": "React best practices from Vercel."
+  },
+  "openai/skills/pdf": {
+    "what": "用 OpenAI 的 PDF 技能读取、解析和处理 PDF 文档",
+    "when": "",
+    "en": "Work with PDF files using OpenAI skills."
+  },
+  "github/awesome-copilot/pdftk-server": {
+    "what": "用 pdftk 命令行合并、拆分、旋转和加密 PDF",
+    "when": "",
+    "en": "Use pdftk to manipulate PDF files."
+  },
+  "anthropics/knowledge-work-plugins/view-pdf": {
+    "what": "在对话里打开并查看 PDF，支持标注、高亮和表单填写",
+    "when": "",
+    "en": "Interactive PDF viewer."
+  },
+  "mattpocock/skills/grilling": {
+    "what": "不断地向用户询问计划、决定或想法。当用户想要对他们的思维进行压力测试或使用任何“烧烤”触发短",
+    "when": "",
+    "en": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any &#x27;grill&#x27; trigger phrases."
+  },
+  "anthropics/skills/frontend-design": {
+    "what": "在构建新 UI 或重塑现有 UI 时提供独特、有意的视觉设计指南。有助于美学方向、排版和制作",
+    "when": "",
+    "en": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making…"
+  },
+  "mattpocock/skills/prototype": {
+    "what": "构建一个一次性原型来回答设计问题。当用户想要健全性检查状态模型或逻辑是否正确，或者探索什么是",
+    "when": "",
+    "en": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a…"
+  },
+  "101-skills/superpowers/ai-image-generation": {
+    "what": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX",
+    "when": "",
+    "en": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein…"
+  },
+  "101-skills/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "mattpocock/skills/triage": {
+    "what": "通过分类角色的状态机转移问题和外部 PR，进行分类、验证、必要时进行询问",
+    "when": "",
+    "en": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs."
+  },
+  "101-skills/superpowers/twitter-automation": {
+    "what": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布",
+    "when": "",
+    "en": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like,…"
+  },
+  "101-skills/superpowers/ai-avatar-video": {
+    "what": "通过 inference.sh CLI 创建 AI 头像和头部说话视频",
+    "when": "",
+    "en": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric,…"
+  },
+  "mattpocock/skills/domain-modeling": {
+    "what": "构建并完善项目的领域模型。在讨论代码库术语",
+    "when": "",
+    "en": "Build and sharpen a project&#x27;s domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR."
+  },
+  "mattpocock/skills/teach": {
+    "what": "在此工作区中向用户传授新技能或概念",
+    "when": "",
+    "en": "Teach the user a new skill or concept, within this workspace."
+  },
+  "heygen-com/hyperframes/hyperframes-animation": {
+    "what": "HyperFrames 的所有动画知识 — 原子运动规则、多相场景蓝图、场景转换",
+    "when": "",
+    "en": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven…"
+  },
+  "mattpocock/skills/codebase-design": {
+    "what": "用于设计深层模块的共享词汇。当用户想要设计或改进模块的界面、寻找深化机会、决定……的位置",
+    "when": "",
+    "en": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module&#x27;s interface, find deepening opportunities, decide where a…"
+  },
+  "heygen-com/hyperframes/hyperframes-core": {
+    "what": "HyperFrames 组合合约 — 构建一个可渲染项目。用于合成结构",
+    "when": "",
+    "en": "The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks,…"
+  },
+  "magentosh/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "mattpocock/skills/diagnosing-bugs": {
+    "what": "硬错误和性能回归的诊断循环。当用户说“诊断”/“调试这个”或报告某些内容损坏/抛出/失败/缓",
+    "when": "",
+    "en": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
+  },
+  "heygen-com/hyperframes/hyperframes-creative": {
+    "what": "HyperFrames 视频的非动画创意方向",
+    "when": "",
+    "en": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning,…"
+  },
+  "magentosh/superpowers/ai-image-generation": {
+    "what": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX",
+    "when": "",
+    "en": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein…"
+  },
+  "mattpocock/skills/code-review": {
+    "what": "沿两个轴查看自固定点（提交、分支、标记或合并基础）以来的更改：标准（代码是否遵循此存储库的记",
+    "when": "",
+    "en": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo&#x27;s documented coding…"
+  },
+  "magentosh/superpowers/ai-avatar-video": {
+    "what": "通过 inference.sh CLI 创建 AI 头像和头部说话视频",
+    "when": "",
+    "en": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric,…"
+  },
+  "magentosh/superpowers/twitter-automation": {
+    "what": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布",
+    "when": "",
+    "en": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like,…"
+  },
+  "mattpocock/skills/implement": {
+    "what": "根据规范或一组票证实施一项工作",
+    "when": "",
+    "en": "Implement a piece of work based on a spec or set of tickets."
+  },
+  "vercel-labs/agent-skills/web-design-guidelines": {
+    "what": "检查 UI 代码是否符合 Web 界面指南。当被要求“检查我的 UI”、“检查可访问性”",
+    "when": "",
+    "en": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site…"
+  },
+  "skills-shell/superpowers/twitter-automation": {
+    "what": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布",
+    "when": "",
+    "en": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like,…"
+  },
+  "mattpocock/skills/ask-matt": {
+    "what": "询问哪种技能或流程适合您的情况。在此存储库中的技能路由器",
+    "when": "",
+    "en": "Ask which skill or flow fits your situation. A router over the skills in this repo."
+  },
+  "skills-shell/superpowers/ai-image-generation": {
+    "what": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX",
+    "when": "",
+    "en": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein…"
+  },
+  "remotion-dev/skills/remotion-best-practices": {
+    "what": "适用于所有远程技能的路由器",
+    "when": "",
+    "en": "Router for all Remotion skills"
+  },
+  "mattpocock/skills/wayfinder": {
+    "what": "在问题跟踪器上规划一大块工作（可以容纳多个代理会话）作为决策单的共享地图，并一次解决一个问题",
+    "when": "",
+    "en": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time…"
+  },
+  "mattpocock/skills/to-tickets": {
+    "what": "将计划、规范或当前对话分解为一组跟踪子弹票，每个跟踪票都声明其阻塞边缘",
+    "when": "",
+    "en": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker…"
+  },
+  "heygen-com/hyperframes/hyperframes-keyframes": {
+    "what": "当 HyperFrames 合成需要切入、切出、缩放、重新构图、Ken Burns 处理",
+    "when": "",
+    "en": "Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe…"
+  },
+  "mattpocock/skills/research": {
+    "what": "针对高信任度主要来源调查问题，并将结果捕获为存储库中的 Markdown 文件",
+    "when": "",
+    "en": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched,…"
+  },
+  "qu-skills/superpowers/ai-image-generation": {
+    "what": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX",
+    "when": "",
+    "en": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein…"
+  },
+  "microsoft/azure-skills/azure-diagnostics": {
+    "what": "使用 AppLens、Azure Monitor",
+    "when": "",
+    "en": "Debug Azure production issues using AppLens, Azure Monitor, resource health, and safe triage, including evidence-only diagnosis without live access. WHEN:…"
+  },
+  "microsoft/azure-skills/azure-ai": {
+    "what": "构建 Azure AI 搜索、语音、OpenAI 和文档智能应用并对其进行故障排除",
+    "when": "",
+    "en": "Build and troubleshoot Azure AI Search, Speech, OpenAI, and Document Intelligence apps. WHEN: AI Search, query search, vector search, hybrid search, semantic…"
+  },
+  "microsoft/azure-skills/azure-deploy": {
+    "what": "对具有现有 .azure/deployment-plan.md",
+    "when": "",
+    "en": "Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/deployment-plan.md and infrastructure files. DO NOT use this skill when…"
+  },
+  "microsoft/azure-skills/azure-storage": {
+    "what": "Azure 存储服务，包括 Blob 存储、文件共享、队列存储、表存储和数据湖",
+    "when": "",
+    "en": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot,…"
+  },
+  "gencraft-labs/skills/ai-image-generation": {
+    "what": "通过“runco​​mfy” CLI 在 RunComfy 上生成和编辑图像 -",
+    "when": "",
+    "en": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo,…"
+  },
+  "microsoft/azure-skills/azure-kubernetes": {
+    "what": "规划、创建和配置生产就绪的 Azure Kubernetes 服务 (AKS) 群集",
+    "when": "",
+    "en": "Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking…"
+  },
+  "microsoft/azure-skills/azure-kusto": {
+    "what": "使用 KQL 查询和分析 Azure 数据资源管理器 (Kusto/ADX)",
+    "when": "",
+    "en": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database…"
+  },
+  "microsoft/azure-skills/azure-resource-visualizer": {
+    "what": "分析 Azure 资源组并生成详细的 Mermaid 架构图，显示各个资源之间的关系",
+    "when": "",
+    "en": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. WHEN: create…"
+  },
+  "microsoft/azure-skills/azure-quotas": {
+    "what": "检查/管理跨提供商的 Azure 配额和使用情况。用于部署规划、容量验证、区域选择",
+    "when": "",
+    "en": "Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"service limits\",…"
+  },
+  "microsoft/azure-skills/azure-compute": {
+    "what": "Azure VM/VMSS 路由器。何时：创建/配置/部署/启动 VM、推荐 VM 大小",
+    "when": "",
+    "en": "Azure VM/VMSS router. WHEN: create / provision / deploy / spin-up VM, recommend VM size, compare VM pricing, VMSS, scale set, autoscale, burstable, lightweight…"
+  },
+  "microsoft/azure-skills/azure-enterprise-infra-planner": {
+    "what": "根据工作负载描述构建和配置企业 Azure 基础架构。适合规划网络",
+    "when": "",
+    "en": "Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity,…"
+  },
+  "microsoft/azure-skills/azure-cloud-migrate": {
+    "what": "通过报告和代码转换评估跨云工作负载并将其迁移到 Azure。支持 Lambda→函数",
+    "when": "",
+    "en": "Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions, Beanstalk/Heroku/App Engine→App Service,…"
+  },
+  "microsoft/azure-skills/entra-agent-id": {
+    "what": "通过 Microsoft Graph 配置 Microsoft Entra 代理身份蓝图",
+    "when": "",
+    "en": "Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token…"
+  },
+  "microsoft/azure-skills/discover-azure-skills": {
+    "what": "搜索 Azure 技能目录并通过将 Azure 任务与技能元数据和插件安装指南相匹配来推荐可",
+    "when": "",
+    "en": "Searches the Azure skills catalog and recommends installable agent skills by matching an Azure task to skill metadata and plugin installation guidance. WHEN:…"
+  },
+  "microsoft/azure-skills/azure-messaging": {
+    "what": "排查并解决事件中心和服务总线的 Azure 消息传递 SDK 的问题。涵盖连接失败",
+    "when": "",
+    "en": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing…"
+  },
+  "its-a-skill-issue/superpowers/twitter-automation": {
+    "what": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布",
+    "when": "",
+    "en": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like,…"
+  },
+  "microsoft/azure-skills/azure-app-onboard-prereq": {
+    "what": "评估源代码是否已准备好部署到 Azure - 基础设施工作之前的检查。评估构建健康状况",
+    "when": "",
+    "en": "Assess whether source code is ready to deploy to Azure — the check BEFORE infrastructure work. Evaluates build health, app completeness, dependencies and local…"
+  },
+  "its-a-skill-issue/superpowers/ai-avatar-video": {
+    "what": "通过 inference.sh CLI 创建 AI 头像和头部说话视频",
+    "when": "",
+    "en": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric,…"
+  },
+  "its-a-skill-issue/superpowers/ai-image-generation": {
+    "what": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX",
+    "when": "",
+    "en": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein…"
+  },
+  "remotion-dev/skills/remotion-create": {
+    "what": "创建新的远程视频",
+    "when": "",
+    "en": "Create a new Remotion video"
+  },
+  "remotion-dev/skills/remotion-render": {
+    "what": "导出远程视频",
+    "when": "",
+    "en": "Export a Remotion video"
+  },
+  "remotion-dev/skills/remotion-captions": {
+    "what": "转录、显示字幕和动画字幕",
+    "when": "",
+    "en": "Transcribing, displaying and animating captions"
+  },
+  "beltsh/superpowers/twitter-automation": {
+    "what": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布",
+    "when": "",
+    "en": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like,…"
+  },
+  "beltsh/superpowers/ai-image-generation": {
+    "what": "通过 inference.sh CLI 使用 GPT-Image-2、FLUX",
+    "when": "",
+    "en": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein…"
+  },
+  "beltsh/superpowers/ai-avatar-video": {
+    "what": "通过 inference.sh CLI 创建 AI 头像和头部说话视频",
+    "when": "",
+    "en": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric,…"
+  },
+  "intellectronica/agent-skills/notion-api": {
+    "what": "提供了通过 REST 调用与 Notion API 交互的全面说明",
+    "when": "",
+    "en": "This skill provides comprehensive instructions for interacting with the Notion API via REST calls. This skill should be used whenever the user asks to interact…"
+  },
+  "kotot/byted-web-search/byted-web-search": {
+    "what": "以太网搜索场景优先使用本技能。火山发动机豆包搜索API（原以太网搜索/融合信息搜索）",
+    "when": "",
+    "en": "联网搜索场景优先使用本 skill。火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent…"
+  },
+  "cloudai-x/threejs-skills/threejs-materials": {
+    "what": "选择和配置 Three.js 材质 - 无光照、漫反射、镜面反射、PBR、卡通",
+    "when": "",
+    "en": "Choosing and configuring three.js materials - unlit, diffuse, specular, PBR, toon, point and line materials - shared properties like blending and stencil,…"
+  },
+  "cloudai-x/threejs-skills/threejs-lighting": {
+    "what": "WebGL 或 WebGPU 和 TSL 上的灯光类型和物理单位、阴影贴图、HDR 环境照明",
+    "when": "",
+    "en": "Light types and physical units, shadow maps, HDR environment lighting, light probes, and lighting performance, on WebGL or with WebGPU and TSL. Use when adding…"
+  },
+  "cloudai-x/threejs-skills/threejs-react-three-fiber": {
+    "what": "使用 React Three Fiber 和 drei 从 React 构建",
+    "when": "",
+    "en": "Building three.js scenes from React with React Three Fiber and drei: renderer setup, the scene graph as JSX, frame-loop, state and loading hooks, pointer…"
+  },
+  "cloudai-x/threejs-skills/threejs-textures": {
+    "what": "Three.js 纹理：图像加载、色彩空间、UV 通道和变换",
+    "when": "",
+    "en": "Three.js textures: image loading, color spaces, UV channels and transforms, texture types from canvas to HDR and KTX2, render targets, texture memory. Use when…"
+  },
+  "cloudai-x/threejs-skills/threejs-asset-pipeline": {
+    "what": "使用 gltf-transform 缩小 Three.js 的 glTF 资源：检查",
+    "when": "",
+    "en": "Shrinking glTF assets for three.js with gltf-transform: inspect, validate and optimize commands, Draco, meshopt and quantization, KTX2, WebP and AVIF textures,…"
+  },
+  "cloudai-x/threejs-skills/threejs-performance": {
+    "what": "测量和优化 Three.js 速度：渲染统计数据、内存计数器、通过合并、实例化",
+    "when": "",
+    "en": "Measuring and optimizing three.js speed: render statistics, memory counters, fewer draw calls via merging, instancing, batching and LOD, fill rate, shadows,…"
+  },
+  "cloudai-x/threejs-skills/threejs-postprocessing": {
+    "what": "Three.js 后处理：Composer 通道链",
+    "when": "",
+    "en": "Three.js post-processing: composer pass chains, built-in renderer effects, and the WebGPU/TSL node pipeline — bloom, depth of field, ambient occlusion, custom…"
+  },
+  "beltsh/superpowers/agent-browser": {
+    "what": "通过 inference.sh 实现 AI 代理的浏览器自动化。浏览网页",
+    "when": "",
+    "en": "Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web…"
+  },
+  "stablyai/orca/orca-cli": {
+    "what": "通过“orca” CLI 操作 Orca 管理的工作树、文件夹上下文、终端、存储库、自动化",
+    "when": "",
+    "en": "Operate Orca-managed worktrees, folder contexts, terminals, repos, automations, worktree comments, and Orca&#x27;s embedded browser through the `orca` CLI. Use when…"
+  },
+  "riekelt/principal-engineer/guarding-architecture": {
+    "what": "当更改跨越模块边界、在模块之间添加依赖关系方向",
+    "when": "",
+    "en": "Use when a change crosses module boundaries, adds a dependency direction between modules, touches a critical path, or conflicts with a stated principle - and…"
+  },
+  "expo/skills/expo-overview": {
+    "what": "每个 Expo 或 EAS 任务的入口点和路由器",
+    "when": "",
+    "en": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing another expo-* / eas-* skill — when the…"
+  },
+  "riekelt/principal-engineer/keeping-one-source-of-truth": {
+    "what": "当添加数据、配置、状态、常量、类似枚举的字符串",
+    "when": "",
+    "en": "Use when adding data, config, state, constants, an enum-like string, a cache, or anything that could exist in two places - or when two sources already…"
+  },
+  "stripe/link-cli/create-payment-credential": {
+    "what": "从 Link 钱包获取安全支付凭证（卡、代币），用于一次性购买和定期支付",
+    "when": "",
+    "en": "Gets secure payment credentials (cards, tokens) from a Link wallet for one-time purchases and recurring payments. Use when the user says \"get me a card\", \"buy…"
+  },
+  "riekelt/principal-engineer/operating-safely": {
+    "what": "当操作涉及实时系统、共享状态或不会返回的内容时使用 - 删除、覆盖、重新启动、终止进程",
+    "when": "",
+    "en": "Use when an action touches live systems, shared state, or things that do not come back - deleting, overwriting, restarting, killing processes, editing shared…"
+  },
+  "riekelt/principal-engineer/scoping-changes": {
+    "what": "当决定修复应该有多大时，当范围在任务中发生变化时，当计划被悄悄地调整以适应时",
+    "when": "",
+    "en": "Use when deciding how big a fix should be, when scope is drifting mid-task, when a plan is being quietly trimmed to fit, or when \"while you&#x27;re at it\" appears…"
+  },
+  "riekelt/principal-engineer/handling-failures": {
+    "what": "在以任何语言、任何存储库编写或触摸任何错误路径、catch 块、后备、默认值",
+    "when": "",
+    "en": "Use when writing or touching any error path, catch block, fallback, default value, retry, or degraded mode - in any language, any repo. Encodes the…"
+  },
+  "riekelt/principal-engineer/grounding-before-coding": {
+    "what": "在开始任何重要的更改、调查错误或使用不熟悉的代码时使用 - 在编写第一行之前。也用于纯",
+    "when": "",
+    "en": "Use when starting any non-trivial change, investigating a bug, or working in unfamiliar code - before the first line is written. Also use for pure…"
+  },
+  "himself65/finance-skills/hormuz-strait": {
+    "what": "从霍尔木兹海峡监视器仪表板检查霍尔木兹海峡的实时状态：开放、限制或关闭状态、油轮过境与正常",
+    "when": "",
+    "en": "Check the live status of the Strait of Hormuz from the Hormuz Strait Monitor dashboard: open, restricted, or closed status, tanker transits vs normal, stranded…"
+  },
+  "rebelytics/one-skill-to-rule-them-all/task-observer": {
+    "what": "监控任务执行以获得技能改进机会：记录值得保留在工作空间中的模式、用户更正和方法，将它们转化为",
+    "when": "",
+    "en": "Monitors task execution for skill improvement opportunities: logs patterns, user corrections and methodology worth preserving to the workspace, turns them into…"
+  },
+  "himself65/finance-skills/etf-premium": {
+    "what": "根据雅虎财经数据 (yfinance) 计算 ETF 相对于资产净值的溢价或折扣",
+    "when": "",
+    "en": "Calculate an ETF&#x27;s premium or discount to NAV from Yahoo Finance data (yfinance), compare or screen ETFs by premium, explain why a gap exists, and decompose a…"
+  },
+  "expo/skills/expo-web-to-native": {
+    "what": "使用 Expo 将现有的 Web React 应用程序迁移到本机 iOS/Android",
+    "when": "",
+    "en": "Migrate an existing web React app to a native iOS/Android app with Expo. Use when the user wants to turn a website into a mobile app, port a Next.js/Vite/CRA…"
+  },
+  "addyosmani/web-quality-skills/core-web-vitals": {
+    "what": "使用现场和实验室证据优化核心 Web Vitals（LCP、INP",
+    "when": "",
+    "en": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience using field and lab evidence. Use when asked to \"improve Core Web Vitals\", \"fix LCP\",…"
+  },
+  "expo/skills/eas-workflows": {
+    "what": "帮助理解和编写 Expo 项目的 EAS 工作流程 YAML 文件",
+    "when": "",
+    "en": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context,…"
+  },
+  "expo/skills/eas-simulator": {
+    "what": "使用 Expo Simulators（也称为 EAS Simulator）在远程",
+    "when": "",
+    "en": "Run and control a user&#x27;s app on a remote iOS/Android simulator with Expo Simulators (also called EAS Simulator). Read before running any `eas simulator:*`…"
+  },
+  "himself65/finance-skills/earnings-preview": {
+    "what": "根据雅虎财经数据 (yfinance) 为一只股票构建盈余前简报：即将发布的报告日期和时间",
+    "when": "",
+    "en": "Build a pre-earnings briefing for a stock from Yahoo Finance data (yfinance): the upcoming report date and timing, consensus EPS and revenue estimates with…"
+  },
+  "addyosmani/web-quality-skills/performance": {
+    "what": "优化 Web 性能以实现更快的加载和更好的用户体验。当被要求“加速我的网站”、“优化性能”",
+    "when": "",
+    "en": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix…"
+  },
+  "skills-shell/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "qu-skills/superpowers/twitter-automation": {
+    "what": "通过 inference.sh CLI 实现 Twitter/X 的自动化，包括发布",
+    "when": "",
+    "en": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like,…"
+  },
+  "mattpocock/skills/to-spec": {
+    "what": "将当前对话转化为规范并将其发布到项目问题跟踪器：没有采访，只是综合您已经讨论过的内容",
+    "when": "",
+    "en": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you&#x27;ve already discussed."
+  },
+  "qu-skills/superpowers/ai-avatar-video": {
+    "what": "通过 inference.sh CLI 创建 AI 头像和头部说话视频",
+    "when": "",
+    "en": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric,…"
+  },
+  "skills-shell/superpowers/ai-avatar-video": {
+    "what": "通过 inference.sh CLI 创建 AI 头像和头部说话视频",
+    "when": "",
+    "en": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric,…"
+  },
+  "qu-skills/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "microsoft/azure-skills/azure-prepare": {
+    "what": "准备基于 azd 的 Azure 项目进行部署：为 Azure 开发人员 CLI",
+    "when": "",
+    "en": "Prepare azd-based Azure projects for deployment: generates azure.yaml, infrastructure (Bicep/Terraform), and Dockerfiles for the Azure Developer CLI (azd)…"
+  },
+  "microsoft/azure-skills/appinsights-instrumentation": {
+    "what": "使用 Azure Application Insights 检测 Web 应用程序的指南",
+    "when": "",
+    "en": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to…"
+  },
+  "microsoft/azure-skills/entra-app-registration": {
+    "what": "指导 Microsoft Entra ID 应用注册",
+    "when": "创建应用程序注册、注册 Azure AD",
+    "en": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure…"
+  },
+  "microsoft/azure-skills/azure-resource-lookup": {
+    "what": "跨订阅或资源组列出、查找和显示 Azure 资源。处理诸如“列出我的订阅中的网站”",
+    "when": "",
+    "en": "List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like \"list the websites in my subscription\", \"list my web apps\",…"
+  },
+  "microsoft/azure-skills/azure-validate": {
+    "what": "Azure 准备情况的部署前验证。对配置、基础设施（Bicep 或 Terraform）",
+    "when": "",
+    "en": "Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), RBAC role assignments, managed identity…"
+  },
+  "microsoft/azure-skills/azure-aigateway": {
+    "what": "将 Azure API 管理配置为 AI 模型、MCP 工具和代理的 AI 网关",
+    "when": "",
+    "en": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI…"
+  },
+  "microsoft/azure-skills/python-appservice-deploy": {
+    "what": "将 Python (Flask/Django/FastAPI) 代码部署到 Azure",
+    "when": "",
+    "en": "Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: \"Flask App Service\", \"Django App Service\", \"FastAPI App Service\", \"deploy Python to…"
+  },
+  "gencraft-labs/skills/ai-video-generation": {
+    "what": "通过“runco​​mfy” CLI 在 RunComfy 上生成 AI 视频 —",
+    "when": "",
+    "en": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio),…"
+  },
+  "microsoft/azure-skills/airunway-aks-setup": {
+    "what": "在 AKS 上设置 AI Runway — 从裸集群到运行模型。涵盖集群验证、控制器安装",
+    "when": "",
+    "en": "Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first…"
+  },
+  "microsoft/azure-skills/azure-reliability": {
+    "what": "评估和改进 PaaS 应用程序（Azure Functions 和 Azure",
+    "when": "",
+    "en": "Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy, ZRS…"
+  },
+  "microsoft/azure-skills/azure-upgrade": {
+    "what": "评估和升级计划、层级或 SKU 之间的 Azure 工作负载",
+    "when": "",
+    "en": "Assess and upgrade Azure workloads between plans, tiers, or SKUs, or modernize Azure SDK dependencies in source code. WHEN: upgrade Consumption to Flex…"
+  },
+  "remotion-dev/skills/remotion-studio": {
+    "what": "预览远程视频",
+    "when": "",
+    "en": "Preview a Remotion video"
+  },
+  "its-a-skill-issue/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "remotion-dev/skills/remotion-upgrade": {
+    "what": "升级Remote和相关包",
+    "when": "",
+    "en": "Upgrade Remotion, and related packages"
+  },
+  "remotion-dev/skills/remotion-interactivity": {
+    "what": "构建 Remotion 标记，以便可以在 Remotion Studio 中编辑图层",
+    "when": "编写新的作品或重组现有的标记",
+    "en": "Structures Remotion markup so layers, timing and styles are editable in Remotion Studio. Use when writing a new composition or restructuring existing markup."
+  },
+  "remotion-dev/skills/remotion-license": {
+    "what": "查找 Remotion 许可证信息、常见问题解答、条款以及许可证购买地点",
+    "when": "",
+    "en": "Find Remotion license information, FAQs, terms, and where to buy a license."
+  },
+  "revnu-app/revnu-plugin/first-customers": {
+    "what": "使用 Revnu 来了解第一批客户/用户、发布计划、进入市场策略、受众/渠道选择",
+    "when": "",
+    "en": "Use Revnu for first customers/users, launch plans, go-to-market strategy, audience/channel selection, positioning and \"I built this, now what\" or \"nobody is…"
+  },
+  "beltsh/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "bankai-skills/superpowers/ai-video-generation": {
+    "what": "通过 inference.sh CLI 使用 Google Veo、Seedance 2.0",
+    "when": "",
+    "en": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse…"
+  },
+  "iart-ai/web-animation-skills/accessible-animation": {
+    "what": "应该是",
+    "when": "用户要求“尊重首选减少运动”",
+    "en": "This skill should be used when the user asks to \"respect prefers-reduced-motion\", \"honor reduced motion\", \"make my animations accessible\", \"fix vestibular /…"
+  },
+  "iart-ai/web-animation-skills/glassmorphism": {
+    "what": "应该是",
+    "when": "用户要求“添加玻璃形态效果”",
+    "en": "This skill should be used when the user asks to \"add a glassmorphism effect\", \"frosted glass UI\", \"Apple liquid glass style\", \"frosted blur card\", \"translucent…"
+  },
+  "secondsky/sap-skills/sap-sac-planning": {
+    "what": "SAP Analytics Cloud (SAC) 规划指南，用于规划模型、支持规划的故事",
+    "when": "",
+    "en": "SAP Analytics Cloud (SAC) planning guidance for planning models, planning-enabled stories, data actions, multi actions, version management, data locking,…"
+  },
+  "luxonis/skills/luxonis-troubleshoot": {
+    "what": "诊断损坏或不正确的现有 OAK 或 DepthAI 应用程序",
+    "when": "现有应用程序失败、挂起或给出错误的输出",
+    "en": "Diagnose a broken or incorrect existing OAK or DepthAI application. Use when an existing app fails, hangs, or gives wrong output."
+  },
+  "arjun988/blender-skills/comic-book-style": {
+    "what": "Blender 的漫画书和图画小说艺术指导，具有墨线强调、半色调提示和高对比度框架",
+    "when": "",
+    "en": "Comic book and graphic-novel art direction for Blender with ink-line emphasis, halftone cues, and high-contrast framing."
+  },
+  "ziva-sh/godot-skills/godot-signals": {
+    "what": "Godot 4 信号模式及其故障模式 - 使用 Callables",
+    "when": "",
+    "en": "Godot 4 signal patterns and their failure modes - declaring typed signals, emit(), connect() and disconnect() with Callables, bind() and unbind(), lambdas,…"
+  },
+  "assistant-ui/skills/thread-list": {
+    "what": "使用运行时连接的 ThreadList 和 ThreadListSidebar 元素",
+    "when": "",
+    "en": "Builds and customizes multiple conversation lists in assistant-ui with the runtime connected ThreadList and ThreadListSidebar elements, ThreadListPrimitive,…"
+  },
+  "nottelabs/notte-skills/migrate-to-notte": {
+    "what": "评估或迁移现有的浏览器自动化代码库，从 Browserbase、Kernel",
+    "when": "",
+    "en": "Assess or migrate an existing browser automation codebase from Browserbase, Kernel, Hyperbrowser, Steel, Anchor Browser, Browser Use Cloud, or Skyvern to…"
+  },
+  "alexbruno/dev-skills/codebase-indexing": {
+    "what": "使用 CodeGraph 和 Repomix 索引、同步和查询项目的代码库",
+    "when": "",
+    "en": "Index, synchronize, and query a project&#x27;s codebase using CodeGraph and Repomix. Use this skill when exploring an unfamiliar repository, maintaining up-to-date…"
+  },
+  "arjun988/blender-skills/visual-console-eras": {
+    "what": "Blender 的视觉时代艺术指导涵盖 PS1-PS5 风格线索、复古街机、DOS、CRT",
+    "when": "",
+    "en": "Visual era art direction for Blender covering PS1–PS5 stylistic cues, retro arcade, DOS, CRT, VHS, and film-grain presentation."
+  },
+  "luxonis/skills/luxonis-model": {
+    "what": "将自定义模型转换或集成到 OAK 应用程序中。不",
+    "when": "训练模型或为新应用程序选择 Zoo 模型",
+    "en": "Convert or integrate a custom model into an OAK app. Do not use to train a model or to pick a Zoo model for a new app."
+  },
+  "arjun988/blender-skills/neon-retrofuturism": {
+    "what": "Blender 的霓虹灯、蒸汽波、合成波和复古未来主义情绪/艺术指导，具有网格地平线",
+    "when": "",
+    "en": "Neon, vaporwave, synthwave, and retrofuturistic mood/art direction for Blender with grid horizons, chrome, and dusk palettes."
+  },
+  "arjun988/blender-skills/archviz": {
+    "what": "Blender 中的室内/室外建筑可视化，具有真实世界比例、摄像机构图",
+    "when": "",
+    "en": "Architectural visualization in Blender for interiors/exteriors with real-world scale, camera composition, PBR materials, and still/animation delivery via MCP."
+  },
+  "social-media-skills/skills/flux": {
+    "what": "FLUX 工艺技能（黑森林实验室）——使用正确的变体和许可生成和编辑品牌图像",
+    "when": "有人想要生成图像....",
+    "en": "The FLUX craft skill (Black Forest Labs) — generate and edit on-brand images with the right variant and license. Use when someone wants to generate images with…"
+  },
+  "arjun988/blender-skills/retro-16bit-style": {
+    "what": "复古 16 位艺术指导，实现 Blender 辅助的 SNES/Genesis",
+    "when": "",
+    "en": "Retro 16-bit art direction for Blender-assisted SNES/Genesis-era color richness, dither cues, and sprite-like clarity."
+  },
+  "arjun988/blender-skills/genre-racing-sports": {
+    "what": "Blender 中赛车和体育比赛的艺术指导，包括赛道地标、体育场套件和高速可读性",
+    "when": "",
+    "en": "Art direction for racing and sports games in Blender with track landmarks, stadium kits, and high-speed readability."
+  },
+  "social-media-skills/skills/story-writer": {
+    "what": "将 Instagram/Facebook 故事写入内容类型",
+    "when": "someone wants \"a",
+    "en": "Writes Instagram/Facebook Stories as a content type. Use when someone wants \"a Story\" / \"Stories,\" \"an IG/FB Story sequence,\" \"Story ideas,\" interactive…"
+  },
+  "assistant-ui/skills/primitives": {
+    "what": "从可组合的、无样式的@assistant-ui/react原语构建和定制assistant-",
+    "when": "",
+    "en": "Builds and customizes assistant-ui chat UI from composable, unstyled @assistant-ui/react primitives: ThreadPrimitive, ComposerPrimitive (with…"
+  },
+  "arjun988/blender-skills/hd-2d-style": {
+    "what": "HD-2D 艺术指导将像素角色/精灵与 3D 环境、景深和剧院照明相结合",
+    "when": "",
+    "en": "HD-2D art direction combining pixel characters/sprites with 3D environments, depth of field, and theatrical lighting."
+  },
+  "arjun988/blender-skills/godot-export": {
+    "what": "Godot 特定的 Blender 导出支持 GLTF/GLB",
+    "when": "",
+    "en": "Godot-specific Blender export favoring GLTF/GLB with correct scale, materials, animation clips, and collision shapes via MCP."
+  },
+  "yaklang/hack-skills/tunneling-and-pivoting": {
+    "what": "隧道和旋转剧本",
+    "when": "通过受感染的主机建立网络隧道",
+    "en": "Tunneling and pivoting playbook. Use when establishing network tunnels through compromised hosts including SSH tunneling, Chisel, Ligolo-ng, socat,…"
+  },
+  "social-media-skills/skills/ai-video": {
+    "what": "与模型无关的人工智能视频路由器和简介——与图像提示相对应",
+    "when": "有人问“我应该使用哪种人工智能视频工具”",
+    "en": "The model-agnostic AI-video router and brief — the counterpart to image-prompt. Use when someone asks \"which AI video tool should I use,\" \"make an AI video,\"…"
+  },
+  "arjun988/blender-skills/lowpoly-style": {
+    "what": "Blender 的低多边形艺术指导受到 PS1/PS2、Lethal Company",
+    "when": "可读的轮廓、最小的多边形",
+    "en": "Low-poly art direction for Blender inspired by PS1/PS2, Lethal Company, Mouthwashing, and Fear to Fathom. Use for readable silhouettes, minimal polygons,…"
+  },
+  "arjun988/blender-skills/prop-artist": {
+    "what": "家具、工具、家居用品、kitbash 零件和可读游戏道具的日常和英雄道具建模",
+    "when": "硬表面太科幻/机械了",
+    "en": "Everyday and hero prop modeling for furniture, tools, household objects, kitbash parts, and readable game props. Use when hard-surface is too sci-fi/mechanical…"
+  },
+  "arjun988/blender-skills/lod-pipeline": {
+    "what": "通过 MCP 在 Blender 中进行专用 LOD 生成、命名、屏幕尺寸目标和游戏网格验证",
+    "when": "",
+    "en": "Dedicated LOD generation, naming, screen-size targets, and validation for game meshes in Blender via MCP."
+  },
+  "social-media-skills/skills/x-growth": {
+    "what": "2026 年 X/Twitter 增长手册",
+    "when": "有人想要“在 X / Twitter",
+    "en": "The X/Twitter growth playbook for 2026. Use when someone wants to \"grow on X / Twitter,\" \"get more reach/followers/impressions on X,\" \"an X content/posting…"
+  },
+  "arjun988/blender-skills/asset-optimization": {
+    "what": "验证和优化 Blender 资源的多边形数、拓扑、UV 效率、材料计数、命名",
+    "when": "",
+    "en": "Validates and optimizes Blender assets for polycount, topology, UV efficiency, material count, naming, collections, and game-ready performance. Use before…"
+  },
+  "prisma-client-api": {
+    "what": "Prisma 客户端 API 参考：模型查询、过滤器、运算符和客户端方法。",
+    "when": "编写数据库查询或 CRUD 时",
+    "en": ""
+  },
+  "prisma-database-setup": {
+    "what": "Prisma ORM 数据库初始化的新名称",
+    "when": "首次配置 Prisma 数据库",
+    "en": ""
+  },
+  "prisma-orm-setup": {
+    "what": "已弃用的旧别名，请改用 prisma-database-setup。",
+    "when": "维护旧项目时",
+    "en": ""
+  },
+  "prisma-cli": {
+    "what": "Prisma ORM 7 的 CLI 参考，适合已升级到 Prisma 7 的项目。",
+    "when": "使用 Prisma 7 时",
+    "en": ""
+  },
+  "prisma-postgres": {
+    "what": "已弃用的旧别名，请改用 prisma-postgres-setup。",
+    "when": "维护旧项目时",
+    "en": ""
+  },
+  "prisma-postgres-setup": {
+    "what": "获取或复用 Prisma Postgres 数据库，并连接到应用。",
+    "when": "需要数据库且尚未配置时",
+    "en": ""
+  },
+  "prisma-driver-adapter-implementation": {
+    "what": "实现或修改 Prisma 7 的 SQL 驱动适配器。",
+    "when": "接入新的数据库驱动时",
+    "en": ""
+  },
+  "prisma-upgrade-v7": {
+    "what": "从 Prisma ORM v6 升级到 v7 的迁移指南，覆盖破坏性变更。",
+    "when": "升级 Prisma 版本时",
+    "en": ""
+  },
+  "prisma-mongodb-upgrade": {
+    "what": "Prisma ORM MongoDB 项目从 v6 升级到 v7 的迁移指南。",
+    "when": "MongoDB 项目升级 v7 时",
+    "en": ""
+  },
+  "prisma-postgres-upgrade": {
+    "what": "Prisma ORM PostgreSQL 从 v6/7 直接升级到 v8 的步骤。",
+    "when": "升级 Postgres 版本时",
+    "en": ""
+  },
+  "prisma-compute": {
+    "what": "用 Prisma CLI 在 Prisma Compute 上部署和操作应用。",
+    "when": "部署 Prisma 应用时",
+    "en": ""
+  },
+  "prisma/skills/prisma-client-api": {
+    "what": "Prisma 客户端 API 参考：模型查询、过滤器、运算符和客户端方法。",
+    "when": "编写数据库查询或 CRUD 时",
+    "en": ""
+  },
+  "prisma/skills/prisma-database-setup": {
+    "what": "Prisma ORM 数据库初始化的新名称",
+    "when": "首次配置 Prisma 数据库",
+    "en": ""
+  },
+  "prisma/skills/prisma-orm-setup": {
+    "what": "已弃用的旧别名，请改用 prisma-database-setup。",
+    "when": "维护旧项目时",
+    "en": ""
+  },
+  "prisma/skills/prisma-cli": {
+    "what": "Prisma ORM 7 的 CLI 参考，适合已升级到 Prisma 7 的项目。",
+    "when": "使用 Prisma 7 时",
+    "en": ""
+  },
+  "prisma/skills/prisma-postgres": {
+    "what": "已弃用的旧别名，请改用 prisma-postgres-setup。",
+    "when": "维护旧项目时",
+    "en": ""
+  },
+  "prisma/skills/prisma-postgres-setup": {
+    "what": "获取或复用 Prisma Postgres 数据库，并连接到应用。",
+    "when": "需要数据库且尚未配置时",
+    "en": ""
+  },
+  "prisma/skills/prisma-driver-adapter-implementation": {
+    "what": "实现或修改 Prisma 7 的 SQL 驱动适配器。",
+    "when": "接入新的数据库驱动时",
+    "en": ""
+  },
+  "prisma/skills/prisma-upgrade-v7": {
+    "what": "从 Prisma ORM v6 升级到 v7 的迁移指南，覆盖破坏性变更。",
+    "when": "升级 Prisma 版本时",
+    "en": ""
+  },
+  "prisma/skills/prisma-mongodb-upgrade": {
+    "what": "Prisma ORM MongoDB 项目从 v6 升级到 v7 的迁移指南。",
+    "when": "MongoDB 项目升级 v7 时",
+    "en": ""
+  },
+  "prisma/skills/prisma-postgres-upgrade": {
+    "what": "Prisma ORM PostgreSQL 从 v6/7 直接升级到 v8 的步骤。",
+    "when": "升级 Postgres 版本时",
+    "en": ""
+  },
+  "prisma/skills/prisma-compute": {
+    "what": "用 Prisma CLI 在 Prisma Compute 上部署和操作应用。",
+    "when": "部署 Prisma 应用时",
+    "en": ""
+  },
+  "leonxlnx/taste-skill/design-taste-frontend": {
+    "what": "Itskill v2，反倾斜前端技能。网站的艺术指导",
+    "when": "",
+    "en": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of…"
+  },
+  "microsoft/azure-skills/microsoft-foundry": {
+    "what": "端到端构建、部署、评估、优化、微调和管理 Microsoft Foundry 代理",
+    "when": "铸造厂、azd AI 代理、azd",
+    "en": "Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end. USE FOR: foundry, azd ai agent, azd…"
+  },
+  "juliusbrussee/caveman/caveman-compress": {
+    "what": "将内存文件（例如 CLAUDE.md 或待办事项列表）压缩为 Caveman",
+    "when": "",
+    "en": "Compress a memory file such as CLAUDE.md or a todo list into caveman format to save input tokens, keeping a readable backup. Sends the file&#x27;s text to the…"
+  },
+  "juliusbrussee/caveman/caveman-stats": {
+    "what": "显示当前 Claude Code 会话的记录输出和缓存读取令牌使用情况以及模式属性",
+    "when": "",
+    "en": "Show recorded output and cache-read token usage and mode attribution for the current Claude Code session, or locate the host&#x27;s native usage report. Trigger:…"
+  },
+  "microsoft/azure-skills/azure-compliance": {
+    "what": "使用 azqr 和 Key Vault 过期检查运行 Azure 合规性和安全审核",
+    "when": "",
+    "en": "Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance…"
+  },
+  "microsoft/azure-skills/azure-app-onboard": {
+    "what": "端到端编排器：从业务构想、应用构想或现有应用到运行 Azure 部署",
+    "when": "",
+    "en": "End-to-end orchestrator: from a business idea, app idea, or existing app to running Azure deployment with cost estimates and pre-deploy approval. Analyzes your…"
+  },
+  "convex/agent-skills/convex": {
+    "what": "Convex 是一次尝试就成功的后端代理：一个全 TypeScript 反应式平台",
+    "when": "",
+    "en": "Convex is the backend agents get right on the first try: an all-TypeScript reactive platform where the database, server functions, scheduling, file storage,…"
+  },
+  "convex/agent-skills/convex-add": {
+    "what": "向当前的 Convex 应用程序添加功能 - 查阅所提供的 Convex",
+    "when": "",
+    "en": "Add a capability to the CURRENT Convex app — consults the served Convex capability catalog for always-current procedures (billing, crons, auth, agent, search,…"
+  },
+  "convex/agent-skills/convex-backup": {
+    "what": "设置凸备份并运行恢复演习来证明恢复 - 快照、恢复到一次性预览",
+    "when": "",
+    "en": "Set up Convex backups and run a restore DRILL that proves recovery — snapshot, restore into a throwaway preview, assert the data came back — plus a schedule…"
+  },
+  "convex/agent-skills/convex-migrate": {
+    "what": "使用 @convex-dev/migrations 在已部署的 Convex",
+    "when": "",
+    "en": "Migrate schema + backfill data on a deployed Convex app using @convex-dev/migrations."
+  },
+  "convex/agent-skills/convex-suggest": {
+    "what": "手动滚动已经解决的模式时，建议匹配的凸组件",
+    "when": "",
+    "en": "Suggest the matching Convex component when the user hand-rolls a pattern it already solves (crons, sharded-counter, rate-limiter, storage, search, presence,…"
+  },
+  "convex/agent-skills/convex-expert": {
+    "what": "凸后端专家。将此代理用于“凸/",
+    "when": "",
+    "en": "Convex backend specialist. Use this agent for any code inside a `convex/` directory — function definitions, schemas, indexes, queries, mutations, actions, HTTP…"
+  },
+  "convex/agent-skills/convex-monitor": {
+    "what": "观察 Convex 应用程序中的下一个开发/产品错误或请求并对其做出反应",
+    "when": "",
+    "en": "Watch for the next dev/prod error or request in a Convex app and react to it."
+  },
+  "convex/agent-skills/convex-cost": {
+    "what": "预览凸支出 — 根据见解按字节/文档读取 × 调用量对功能进行排名",
+    "when": "",
+    "en": "Preview Convex spend — rank functions by bytes/documents-read × call-volume from insights, project each cost driver&#x27;s growth curve, name the cheapest fix;…"
+  },
+  "convex/agent-skills/convex-explain-app": {
+    "what": "解释现有的 Convex 应用程序 — 数据模型 + 关系、公共函数与内部函数",
+    "when": "",
+    "en": "Explain an existing Convex app — data model + relationships, public vs internal functions, auth/ownership model, components, a request→data flow — read from…"
+  },
+  "convex/agent-skills/convex-seed": {
+    "what": "将数据播种或导入到 Convex 数据库中",
+    "when": "",
+    "en": "Seed or import data into the Convex database."
+  },
+  "convex/agent-skills/convex-quickstart": {
+    "what": "只需一句话即可获得一个简单的 Convex + Web 模板",
+    "when": "",
+    "en": "Get a barebones Convex + web template running from a one-sentence idea."
+  },
+  "convex/agent-skills/convex-verify": {
+    "what": "证明凸功能有效 - 通过凸测试作为多个模拟用户的种子、驱动、断言行",
+    "when": "",
+    "en": "Prove a Convex feature works — seed, drive as multiple mocked users via convex-test, assert behavior including the negative authz cases (wrong user refused,…"
+  },
+  "convex/agent-skills/convex-domains": {
+    "what": "在 Convex 应用程序中指向您已经拥有的域",
+    "when": "",
+    "en": "Point a domain you already own at your Convex app (DNS records, custom-domain attach, auth-origin rebind)."
+  },
+  "convex/agent-skills/convex-crons": {
+    "what": "将定期计划作业 (cron) 添加到 Convex 应用程序",
+    "when": "",
+    "en": "Add recurring scheduled jobs (crons) to the Convex app."
+  },
+  "convex/agent-skills/convex-reviewer": {
+    "what": "Convex 代码审查器 — 对凸/目录中的代码进行安全性、身份验证、验证器、性能和模式检查",
+    "when": "审查或审核凸函数..",
+    "en": "Convex code reviewer — security, auth, validators, performance, and pattern checks for code in a convex/ directory. Use to review or audit Convex functions…"
+  },
+  "convex/agent-skills/convex-agent": {
+    "what": "将 AI 代理/RAG 后端 (@convex-dev/agent) 添加到 Convex",
+    "when": "",
+    "en": "Add an AI agent / RAG backend (@convex-dev/agent) to the Convex app."
+  },
+  "convex/agent-skills/convex-create-component": {
+    "what": "使用独立的表和面向应用程序的 API 构建可重用的 Convex 组件",
+    "when": "新组件、可重用后端模块、集成或组件",
+    "en": "Builds reusable Convex components with isolated tables and app-facing APIs. Use for new components, reusable backend modules, integrations, or component…"
+  },
+  "convex/agent-skills/convex-deploy-guard": {
+    "what": "在任何影响部署的命令之前分类并宣布目标凸部署；对产品行动的新明确同意；会话只读模式",
+    "when": "",
+    "en": "Classify + announce the target Convex deployment before any deployment-affecting command; fresh explicit consent for prod actions; session read-only mode."
+  },
+  "convex/agent-skills/convex-migrate-rehearse": {
+    "what": "在快照种子预览部署上演练实时应用程序架构更改 + 回填，验证",
+    "when": "",
+    "en": "Rehearse a live-app schema change + backfill on a snapshot-seeded preview deployment, verify, then promote the proven change to prod with the snapshot as…"
+  },
+  "convex/agent-skills/convex-env": {
+    "what": "凸包环境——人工智能代理的可安装技能，由凸包/代理技能发布",
+    "when": "",
+    "en": "convex-env — an installable skill for AI agents, published by convex/agent-skills."
+  },
+  "convex/agent-skills/convex-self-heal": {
+    "what": "生产错误 → 分类、根本原因、修复和认证（tsc + 排练 + 重现然后消失）修复 PR",
+    "when": "",
+    "en": "Production error → triaged, root-caused, repaired, and certified (tsc + rehearsal + reproduce-then-gone) fix PR for a human to merge — then confirm the error…"
+  },
+  "convex/agent-skills/convex-optimize": {
+    "what": "审核和优化现有的 Convex 应用程序：安全性、规模、升级、可观察性",
+    "when": "",
+    "en": "Audit and optimize an existing Convex app: security, scale, upgrades, observability."
+  },
+  "convex/agent-skills/convex-test": {
+    "what": "为应用程序的凸函数生成凸测试",
+    "when": "",
+    "en": "Generate convex-test tests for the app&#x27;s Convex functions."
+  },
+  "convex/agent-skills/convex-insights": {
+    "what": "用自然语言（官方 MCP）查询正在运行的 Convex 应用程序的日志 + 运行状况：故障",
+    "when": "",
+    "en": "Query a running Convex app&#x27;s logs + health in natural language (official MCP): failures, slow/expensive functions, deploy causality — scoped, evidence-backed,…"
+  },
+  "convex/agent-skills/convex-sentinel": {
+    "what": "在您自己的 Convex 部署中设置 Sentinel 生产错误捕获",
+    "when": "",
+    "en": "Set up Sentinel production error capture in your own Convex deployment."
+  },
+  "convex/agent-skills/convex-design": {
+    "what": "在 Convex 上设计和构建反应式、类型安全、生产级后端。涵盖模式、查询/突变/操作、索引",
+    "when": "",
+    "en": "Design and build reactive, type-safe, production-grade backends on Convex. Covers schema, queries/mutations/actions, indexes, auth, file storage, scheduling,…"
+  },
+  "convex/agent-skills/convex-authz": {
+    "what": "审核并强化 Convex 应用程序的授权：来自 arg 的身份模拟、缺少每个文档的所有权检查",
+    "when": "",
+    "en": "Audit and harden a Convex app&#x27;s authorization: identity-from-arg impersonation, missing per-document ownership checks, public queries leaking data by a…"
+  },
+  "convex/agent-skills/convex-advisor": {
+    "what": "凸面顾问——人工智能代理的可安装技能，由凸面/代理技能发布",
+    "when": "",
+    "en": "convex-advisor — an installable skill for AI agents, published by convex/agent-skills."
+  },
+  "convex/agent-skills/convex-docs": {
+    "what": "为该项目使用的版本拉取当前版本的 Convex 文档 - 固定已安装的版本",
+    "when": "",
+    "en": "Pull version-current Convex docs for the version this project uses — pin the installed version, fetch page-as-markdown or check node_modules types, freshness…"
+  },
+  "convex/agent-skills/convex-billing": {
+    "what": "通过 @convex-dev/stripe （结帐 + webhook + 门控）",
+    "when": "",
+    "en": "Add Stripe billing/payments to the Convex app via @convex-dev/stripe (checkout + webhook + gating)."
+  },
+  "convex/agent-skills/convex-auth": {
+    "what": "将身份验证（passkeys/OAuth）添加到当前的 Convex 应用程序",
+    "when": "",
+    "en": "Add authentication (passkeys/OAuth) to the current Convex app, including the auth.config.ts wiring."
+  },
+  "convex/agent-skills/convex-launch-readiness": {
+    "what": "将每项 Convex 审计（授权、审阅者、顾问、见解）运行到一份已评分",
+    "when": "",
+    "en": "Run every Convex audit (authz, reviewer, advisor, insights) into one scored, deduped readiness report with an ordered fix plan — Lighthouse for your backend."
+  },
+  "convex/agent-skills/convex-improve-convex-plugin": {
+    "what": "将此编码会话的记录发送给 Convex 团队进行 AI 事后分析，以改进快速启动系统",
+    "when": "",
+    "en": "Send this coding session&#x27;s transcript to the Convex team for an AI post-mortem that improves the quickstart system. Run only when the user explicitly asks."
+  },
+  "vercel-labs/ui/ui-sdk": {
+    "what": "在 React、Vue、Svelte、Solid 或 Web 组件中使用 ui-sdk",
+    "when": "",
+    "en": "Builds interfaces with ui-sdk in React, Vue, Svelte, Solid or web components. Covers choosing and composing its components, building a component or behavior it…"
+  },
+  "software-mansion/argent/argent-macos-app-interact": {
+    "what": "通过 argent 驱动本机 Mac 应用程序",
+    "when": "列表设备条目具有平台“macos",
+    "en": "Drive a native Mac app (AppKit, SwiftUI, react-native-macos) through argent. Use when a list-devices entry has platform \"macos\", or the user names a Mac app, a…"
+  }
+}

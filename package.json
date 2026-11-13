@@ -1,0 +1,127 @@
+{
+  "name": "skills-shelf",
+  "productName": "Skills Shelf",
+  "version": "0.5.4",
+  "private": true,
+  "type": "module",
+  "description": "技能架：统一查看、搜索、安装本机所有 AI Agent Skills，并浏览在线技能市场",
+  "main": "electron/main.mjs",
+  "author": {
+    "name": "zhuoyulang",
+    "email": "zhuoyulang@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "check": "node --check electron/main.mjs && node --check electron/preload.cjs && node --check renderer/app.js",
+    "dist": "electron-builder --mac dmg",
+    "dist:win": "node scripts/build-win.mjs",
+    "dist:linux": "electron-builder --linux AppImage deb --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "45.2.2",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "com.skillsshelf.desktop",
+    "productName": "Skills Shelf",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "electron/**/*",
+      "renderer/**/*",
+      "data/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "build/icon.icns",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ]
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Skills-Shelf-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "dmg": {
+      "title": "Skills Shelf ${version}",
+      "window": {
+        "width": 540,
+        "height": 380
+      },
+      "contents": [
+        {
+          "x": 140,
+          "y": 190,
+          "type": "file"
+        },
+        {
+          "x": 400,
+          "y": 190,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "artifactName": "Skills-Shelf-${version}-${arch}.${ext}",
+    "linux": {
+      "icon": "build/icon.png",
+      "category": "Utility",
+      "synopsis": "Manage local AI agent skills",
+      "description": "Skills Shelf — 技能架：统一查看、搜索、安装本机所有 AI Agent Skills，并浏览在线技能市场。",
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "deb",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "maintainer": "zhuoyulang <zhuoyulang@users.noreply.github.com>",
+      "syncDesktopName": true
+    },
+    "deb": {
+      "compression": "gz"
+    }
+  },
+  "homepage": "https://github.com/zhuoyulang-123456/skills-shelf",
+  "desktopName": "skills-shelf.desktop"
+}

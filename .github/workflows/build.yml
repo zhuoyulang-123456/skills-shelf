@@ -1,0 +1,140 @@
+name: build
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  macos:
+    name: macOS arm64
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/Library/Caches/electron
+            ~/Library/Caches/electron-builder
+          key: macos-electron-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - run: npm run check
+      - run: npm run dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Skills-Shelf-macOS-arm64
+          path: release/*.dmg
+          if-no-files-found: error
+          retention-days: 7
+
+  windows:
+    name: Windows x64
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ${{ env.LOCALAPPDATA }}\electron\Cache
+            ${{ env.LOCALAPPDATA }}\electron-builder\Cache
+          key: windows-electron-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - run: npm run check
+      - run: npm run dist:win
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Skills-Shelf-Windows-x64
+          path: |
+            release/Skills-Shelf-Setup-*.exe
+            release/Skills-Shelf-Portable-*.exe
+          if-no-files-found: error
+          retention-days: 7
+
+  linux-x64:
+    name: Linux x64
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/electron
+            ~/.cache/electron-builder
+          key: linux-x64-electron-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - run: npm run check
+      - run: npm run dist:linux
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Skills-Shelf-Linux-x64
+          path: |
+            release/Skills-Shelf-*-x86_64.AppImage
+            release/Skills-Shelf-*-amd64.deb
+          if-no-files-found: error
+          retention-days: 7
+
+  linux-arm64:
+    name: Linux arm64
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/Library/Caches/electron
+            ~/Library/Caches/electron-builder
+          key: linux-arm64-electron-${{ hashFiles('package-lock.json') }}
+      - run: npm ci
+      - run: npm run check
+      - run: npx electron-builder --linux AppImage deb --arm64 -c.directories.output=release-linux-arm64 --publish never
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Skills-Shelf-Linux-arm64
+          path: |
+            release-linux-arm64/*.AppImage
+            release-linux-arm64/*.deb
+          if-no-files-found: error
+          retention-days: 7
+
+  release:
+    name: Publish release
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [macos, windows, linux-x64, linux-arm64]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/**/*
+          generate_release_notes: true
+          body: |
+            未签名的自动构建：macOS 首次打开需在「隐私与安全性」放行；Windows SmartScreen 需选择「更多信息 → 仍要运行」；Linux 包未签名。

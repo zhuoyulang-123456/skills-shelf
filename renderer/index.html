@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>技能架 · Skills Shelf</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <svg class="sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- 界面 -->
+        <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m15.8 15.8 4.7 4.7"/></symbol>
+        <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4.2v4h-4"/></symbol>
+        <symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 7.2h8.2M17.2 7.2H20M4 12h3.2M12.2 12H20M4 16.8h9.2M18.2 16.8H20"/><circle cx="14.8" cy="7.2" r="2.4"/><circle cx="9.8" cy="12" r="2.4"/><circle cx="15.8" cy="16.8" r="2.4"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+        <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5.5v13M5.5 12h13"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.6 4.6L19 7"/></symbol>
+        <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M4.5 12h14M13 6.5l5.5 5.5-5.5 5.5"/></symbol>
+        <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9.5 6 6 6-6"/></symbol>
+        <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3.5 7.4a2 2 0 0 1 2-2h3.6l2.1 2.6h7.3a2 2 0 0 1 2 2v6.6a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
+        <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2.4"/><path d="M15 5.6A2.6 2.6 0 0 0 12.4 3H6.6A2.6 2.6 0 0 0 4 5.6v5.8A2.6 2.6 0 0 0 6.6 14"/></symbol>
+        <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6"/><path d="M20 4 11.5 12.5"/><path d="M18 14.5v4A1.5 1.5 0 0 1 16.5 20h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6h4"/></symbol>
+        <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 4.2 20.4 19.4H3.6z"/><path d="M12 9.4v4.4M12 17v.1"/></symbol>
+        <symbol id="i-file" viewBox="0 0 24 24"><path d="M6.5 3.5h7l4.5 4.5v12.5h-11.5z"/><path d="M13.5 3.5V8H18"/></symbol>
+        <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4.5 6.5h15M9.5 6.5V4h5v2.5M6.8 6.5 7.7 20h8.6l.9-13.5"/><path d="M10.6 10.5v5.6M13.4 10.5v5.6"/></symbol>
+        <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 3.4 1.9 5.2 5.2 1.9-5.2 1.9-1.9 5.2-1.9-5.2-5.2-1.9 5.2-1.9z"/><path d="m18.4 16.2.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7z"/></symbol>
+        <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3.4 8.6 4.8L12 13 3.4 8.2z"/><path d="m3.4 12.4 8.6 4.8 8.6-4.8"/></symbol>
+        <symbol id="i-folder-plus" viewBox="0 0 24 24"><path d="M3.5 7.4a2 2 0 0 1 2-2h3.6l2.1 2.6h7.3a2 2 0 0 1 2 2v6.6a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><path d="M12 11.2v5M9.5 13.7h5"/></symbol>
+        <symbol id="i-import" viewBox="0 0 24 24"><path d="M12 3.6v9.8"/><path d="m8 9.6 4 4 4-4"/><path d="M4.6 15.4v3A1.6 1.6 0 0 0 6.2 20h11.6a1.6 1.6 0 0 0 1.6-1.6v-3"/></symbol>
+        <symbol id="i-select" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3.2" stroke-dasharray="3.2 3.2"/><path d="m8.4 12.1 2.5 2.5 4.7-5.2"/></symbol>
+        <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19.5 12h-14M11 6.5 5.5 12l5.5 5.5"/></symbol>
+        <symbol id="i-store" viewBox="0 0 24 24"><path d="M4.6 8.2h14.8l-1.1 11.2a1.4 1.4 0 0 1-1.4 1.3H7.1a1.4 1.4 0 0 1-1.4-1.3z"/><path d="M9 8.2V6.4a3 3 0 0 1 6 0v1.8"/></symbol>
+        <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.6 2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.9l6-.8z"/></symbol>
+        <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12.4h4l2.1-6.2 4.2 12 2.1-5.8H21"/></symbol>
+        <symbol id="i-mark" viewBox="0 0 24 24"><rect x="3.8" y="4.4" width="3" height="10.8" rx="1.2"/><rect x="8.5" y="3.2" width="3" height="12" rx="1.2"/><rect x="13.2" y="5" width="3" height="10.2" rx="1.2" fill="currentColor" stroke="none"/><rect x="17.9" y="3.8" width="3" height="11.4" rx="1.2"/><path d="M3.2 17.4h17.6" stroke-width="1.3"/></symbol>
+
+        <!-- 分类 -->
+        <symbol id="i-code" viewBox="0 0 24 24"><path d="m9 7.5-5.5 4.5L9 16.5"/><path d="m15 7.5 5.5 4.5L15 16.5"/></symbol>
+        <symbol id="i-writing" viewBox="0 0 24 24"><path d="m4 20 1-4.4L15.4 5.2a2.1 2.1 0 0 1 3 0l.4.4a2.1 2.1 0 0 1 0 3L8.4 19z"/><path d="m13.4 7.2 3.4 3.4"/></symbol>
+        <symbol id="i-design" viewBox="0 0 24 24"><path d="M12 3.6a8.4 8.4 0 1 0 0 16.8c1.1 0 1.7-.8 1.7-1.7 0-1.4 1-2.2 2.4-2.2h1.2a3 3 0 0 0 3-3A8.8 8.8 0 0 0 12 3.6Z"/><circle cx="8.2" cy="10" r="1" fill="currentColor" stroke="none"/><circle cx="12" cy="7.4" r="1" fill="currentColor" stroke="none"/><circle cx="15.9" cy="10" r="1" fill="currentColor" stroke="none"/></symbol>
+        <symbol id="i-data" viewBox="0 0 24 24"><path d="M4.5 20v-5.5M9.7 20V8.5M14.9 20v-8M20 20V4.6"/><path d="M3 20h18"/></symbol>
+        <symbol id="i-office" viewBox="0 0 24 24"><rect x="4.5" y="3.5" width="15" height="17" rx="2"/><path d="M8.2 8.4h7.6M8.2 12h7.6M8.2 15.6h4.6"/></symbol>
+        <symbol id="i-research" viewBox="0 0 24 24"><path d="M12 6.6C10 5 7.3 4.4 4 4.6v13c3.3-.2 6 .4 8 2 2-1.6 4.7-2.2 8-2v-13c-3.3-.2-6 .4-8 2Z"/><path d="M12 6.6v13"/></symbol>
+        <symbol id="i-media" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M10 8.6v6.8l5.6-3.4z"/></symbol>
+        <symbol id="i-automation" viewBox="0 0 24 24"><path d="M13.6 3 5.6 13.4H11l-.6 7.6 8-10.6h-5.4z"/></symbol>
+        <symbol id="i-other" viewBox="0 0 24 24"><path d="M8 8h.01M16 8h.01M8 16h.01M16 16h.01" stroke-width="3.2"/></symbol>
+      </defs>
+    </svg>
+
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo"><svg class="ic" aria-hidden="true"><use href="#i-mark" /></svg></div>
+        <div class="brand-text">
+          <h1>技能架 <span class="brand-count" id="brandCount">—</span></h1>
+          <p>统一查看、搜索、添加本机所有 AI 技能</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn market-entry" id="marketBtn" title="浏览在线技能市场（skills.sh）">
+          <svg class="ic" aria-hidden="true"><use href="#i-store" /></svg><span>市场</span>
+        </button>
+        <button class="btn ghost" id="projectBtn" title="关联一个项目的技能目录">
+          <svg class="ic" aria-hidden="true"><use href="#i-folder-plus" /></svg><span>项目</span>
+        </button>
+        <button class="btn ghost" id="importBtn" title="把本地技能导入中央技能库">
+          <svg class="ic" aria-hidden="true"><use href="#i-import" /></svg><span>导入</span>
+        </button>
+        <div class="header-divider"></div>
+        <button class="btn ghost" id="refreshBtn" title="重新扫描本机技能">
+          <svg class="ic" aria-hidden="true"><use href="#i-refresh" /></svg><span>刷新</span>
+        </button>
+        <div class="header-divider"></div>
+        <button class="btn ghost" id="settingsBtn" title="自定义目录与安装方式">
+          <svg class="ic" aria-hidden="true"><use href="#i-settings" /></svg><span>设置</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="search-hero">
+        <div class="search-box">
+          <span class="search-icon"><svg class="ic" aria-hidden="true"><use href="#i-search" /></svg></span>
+          <input id="searchInput" type="search" autocomplete="off" spellcheck="false"
+            placeholder="搜索技能名称、用途、分类或来源，例如：PDF、写作、视频、Claude" />
+          <button class="search-clear" id="searchClear" hidden title="清空搜索">
+            <svg class="ic" aria-hidden="true"><use href="#i-close" /></svg>
+          </button>
+          <kbd>/</kbd>
+        </div>
+        <div class="search-hint">支持模糊搜索；右键技能卡片可以看详细介绍、添加或移除。</div>
+      </section>
+
+      <section class="stats" id="stats"></section>
+
+      <section class="filters">
+        <div class="category-row" id="categoryRow"></div>
+        <div class="source-row">
+          <label for="sourceSelect">来源</label>
+          <select id="sourceSelect"><option value="all">全部来源</option></select>
+          <span class="source-note" id="sourceNote"></span>
+          <span class="row-spacer"></span>
+          <label for="sortSelect">排序</label>
+          <select id="sortSelect">
+            <option value="recommended">推荐（星标 + 使用）</option>
+            <option value="name">名称</option>
+            <option value="stars">星标最多</option>
+            <option value="usage">使用最多</option>
+            <option value="recent">最近更新</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="preset-row" id="presetRow">
+        <span class="preset-label">套装</span>
+        <div class="preset-chips" id="presetChips"></div>
+        <button class="btn ghost preset-save" id="savePresetBtn" title="把当前筛选结果保存成套装">
+          <svg class="ic" aria-hidden="true"><use href="#i-plus" /></svg><span>保存当前筛选</span>
+        </button>
+      </section>
+
+      <div class="result-bar">
+        <span class="result-count" id="resultCount"></span>
+        <div class="result-actions">
+          <span class="result-hint" id="resultHint">右键卡片查看更多操作</span>
+          <button class="btn ghost mini" id="batchToggle" title="多选技能，批量添加">
+            <svg class="ic" aria-hidden="true"><use href="#i-select" /></svg><span>多选</span>
+          </button>
+        </div>
+      </div>
+
+      <section class="grid" id="grid"></section>
+
+      <div class="empty" id="empty" hidden>
+        <svg class="empty-art" viewBox="0 0 200 140" fill="none" aria-hidden="true">
+          <rect x="26" y="26" width="148" height="90" rx="10" stroke="currentColor" stroke-opacity=".22" />
+          <path d="M26 46h148" stroke="currentColor" stroke-opacity=".14" />
+          <circle cx="38" cy="36" r="1.6" fill="currentColor" fill-opacity=".3" />
+          <circle cx="45" cy="36" r="1.6" fill="currentColor" fill-opacity=".3" />
+          <circle cx="52" cy="36" r="1.6" fill="currentColor" fill-opacity=".3" />
+          <rect x="44" y="62" width="30" height="38" rx="4" stroke="currentColor" stroke-opacity=".34" stroke-dasharray="4 4" />
+          <rect x="86" y="62" width="30" height="38" rx="4" stroke="currentColor" stroke-opacity=".34" stroke-dasharray="4 4" />
+          <rect x="128" y="62" width="30" height="38" rx="4" stroke="currentColor" stroke-opacity=".22" stroke-dasharray="4 4" />
+          <path d="M143 76v10M138 81h10" stroke="currentColor" stroke-opacity=".4" stroke-linecap="round" />
+          <path d="M60 118h80" stroke="currentColor" stroke-opacity=".16" stroke-linecap="round" />
+        </svg>
+        <h2 id="emptyTitle">没有找到匹配的技能</h2>
+        <p id="emptyText">换个关键词，或点右上角「刷新」重新扫描。</p>
+        <button class="btn" id="emptySettingsBtn">
+          <svg class="ic" aria-hidden="true"><use href="#i-plus" /></svg>添加自定义技能目录
+        </button>
+      </div>
+    </main>
+
+    <section class="market" id="marketView" hidden>
+      <div class="market-bar">
+        <button class="btn ghost" id="marketBack">
+          <svg class="ic" aria-hidden="true"><use href="#i-arrow-left" /></svg><span>返回</span>
+        </button>
+        <div class="market-brand">
+          <div class="market-logo"><svg class="ic" aria-hidden="true"><use href="#i-store" /></svg></div>
+          <div>
+            <h2>技能市场</h2>
+            <p>来自 skills.sh · 一键下载到本地技能库</p>
+          </div>
+        </div>
+        <div class="market-search">
+          <svg class="ic" aria-hidden="true"><use href="#i-search" /></svg>
+          <input id="marketQuery" type="search" autocomplete="off" spellcheck="false"
+            placeholder="搜索技能，例如 PDF、React、设计、写作" />
+        </div>
+      </div>
+      <div class="market-inner">
+        <div class="market-ask">
+          <span class="market-ask-label">
+            <svg class="ic" aria-hidden="true"><use href="#i-sparkle" /></svg>AI 找技能
+          </span>
+          <input id="marketAskInput" type="text" autocomplete="off" spellcheck="false"
+            placeholder="说说你要做什么，例如：把播客剪成短视频并写推文" />
+          <button class="btn primary" id="marketAskBtn">帮我挑</button>
+        </div>
+        <div class="market-tabs" id="marketTabs">
+          <button data-board="all" class="on">热门</button>
+          <button data-board="trending">趋势</button>
+          <button data-board="hot">飙升</button>
+        </div>
+        <div class="market-tools">
+          <div class="market-cats" id="marketCats"></div>
+          <label class="market-sort">排序
+            <select id="marketSort">
+              <option value="relevance">相关度</option>
+              <option value="installs">安装量</option>
+              <option value="stars">星标</option>
+              <option value="name">名称</option>
+            </select>
+          </label>
+          <button class="btn ghost mini market-ai" id="marketAiBtn" title="用你的大模型总结当前结果">
+            <svg class="ic" aria-hidden="true"><use href="#i-sparkle" /></svg>AI 总结本页
+          </button>
+        </div>
+        <div class="market-status" id="marketStatus">正在加载市场…</div>
+        <div class="market-grid" id="marketGrid"></div>
+      </div>
+    </section>
+
+    <div class="drawer-mask" id="drawerMask" hidden></div>
+    <aside class="drawer" id="detailDrawer" hidden></aside>
+
+    <div class="mask" id="modalMask" hidden>
+      <div class="modal" id="modal"></div>
+    </div>
+
+    <div class="batch-bar" id="batchBar" hidden>
+      <span class="batch-count"><b id="batchCount">0</b> 个技能已选</span>
+      <button class="btn primary" id="batchAddBtn">
+        <svg class="ic" aria-hidden="true"><use href="#i-plus" /></svg>添加到工具…
+      </button>
+      <button class="btn ghost" id="batchClearBtn">退出多选</button>
+    </div>
+
+    <div class="context-menu" id="contextMenu" hidden></div>
+    <div class="toast" id="toast" hidden></div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

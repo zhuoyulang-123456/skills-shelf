@@ -1,0 +1,7 @@
+node_modules/
+release/
+release-linux-arm64/
+.DS_Store
+*.log
+*.blockmap
+build/icon.iconset/
