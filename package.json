@@ -15,7 +15,7 @@
     "start": "electron .",
     "dev": "electron .",
     "check": "node --check electron/main.mjs && node --check electron/preload.cjs && node --check renderer/app.js",
-    "dist": "electron-builder --mac dmg",
+    "dist": "electron-builder --mac dmg --publish never",
     "dist:win": "node scripts/build-win.mjs",
     "dist:linux": "electron-builder --linux AppImage deb --x64 --publish never"
   },
