@@ -135,7 +135,7 @@ npm run dist:win    # Windows：NSIS 安装版 + Portable
 npm run dist:linux  # Linux x64：AppImage + deb
 ```
 
-CI 在 `.github/workflows/build.yml`：macOS arm64、Windows x64、Linux x64、Linux arm64 四平台并行构建；推 `v*` 标签自动发 Release，也可在 Actions 里手动触发。
+CI 在 `.github/workflows/build.yml`：macOS arm64（`macos-15`）、Windows x64、Linux x64、Linux arm64（`ubuntu-24.04-arm`）四平台并行构建；推 `v*` 标签自动发 Release，也可在 Actions 里手动触发。
 
 <details>
 <summary>目录结构</summary>
