@@ -151,6 +151,8 @@ skills-shelf/
 ├── build/                  # 图标与图标生成脚本
 ├── docs/FEATURES.md        # 功能清单与设计取舍
 ├── docs/screenshots/       # README 截图与社交预览图
+├── docs/WINDOWS-RECORDING.md  # Windows 录屏/截图指南
+├── scripts/record-kit/     # 演示数据、启动、CDP 截图脚本
 └── CHANGELOG.md            # 版本记录
 ```
 
