@@ -6,13 +6,13 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)](#下载)
 [![build](https://github.com/zhuoyulang-123456/skills-shelf/actions/workflows/build.yml/badge.svg)](https://github.com/zhuoyulang-123456/skills-shelf/actions/workflows/build.yml)
-[![skills](https://img.shields.io/badge/agents-56-6b7cff.svg)](#支持的-agent)
+[![skills](https://img.shields.io/badge/agents-50%2B-6b7cff.svg)](#支持的-agent)
 
 如果你同时用 Claude Code、Codex、Cursor、OpenCode、WorkBuddy……你大概已经有一堆散落在 `~/.claude/skills`、`~/.codex/skills`、`.cursor/skills` 里的技能：**装了哪些、哪个是干嘛的、改过没有，全靠记忆**。
 
 技能架把这些目录合成一个书架：
 
-- **一个窗口看全**：56 个 Agent、几十上百个技能，合并、去重、标来源；
+- **一个窗口看全**：50+ 款 Agent、几十上百个技能，合并、去重、标来源；
 - **说人话**：129 条人工撰写的中文简介，写清「能做什么、什么时候用、优势和坑」；
 - **装一次，到处用**：同一个技能一键复制 / 软链到任意 Agent，也能一键移除；
 - **不止本机**：内置 skills.sh 市场，热门 / 趋势 / 飙升榜，中文摘要，一键下载；
@@ -27,7 +27,7 @@
 
 | 你现在的做法 | 技能架 |
 |---|---|
-| 手动在十几个 `~/.xxx/skills` 之间翻文件夹 | 一次扫描 56 个 Agent，合并成卡片，标出装在哪几个工具 |
+| 手动在十几个 `~/.xxx/skills` 之间翻文件夹 | 一次扫描 50+ 款 Agent，合并成卡片，标出装在哪几个工具 |
 | 英文 `SKILL.md` 看得半懂，装完就忘 | 中文简介 + 使用场景 + 优势/注意，右键即看 |
 | 同一个技能要在每个工具里复制一遍 | 多选 + 一次添加到多个 Agent，失败自动回退 |
 | 想删又怕删错 | 详情里按 Agent 逐个移除，默认进废纸篓 |
@@ -77,7 +77,7 @@ npm start
 ## 功能
 
 ### 书架：扫描与整理
-- **56 个 Agent**（见下方列表）自动发现，路径不存在就标记「未检测到」，不会误建目录。
+- **50+ 款 Agent**（56 个目录目标，见下方列表）自动发现，路径不存在就标记「未检测到」，不会误建目录。
 - 同一个技能装在多个工具里时合并成一张卡，徽标显示来源；内容不一致时标「多版本」。
 - 按名称、简介和正文关键词自动归入 9 个分类：编程开发、写作内容、设计创意、数据金融、办公效率、研究学习、视频音频、自动化、生活其他。
 - **模糊搜索**：中文、英文、路径、来源都能搜；`/` 聚焦搜索框。
@@ -170,4 +170,4 @@ skills-shelf/
 
 ---
 
-**English**: Skills Shelf is a cross-platform desktop manager for AI agent skills. It scans 56 agents, merges duplicates, explains every skill in Chinese, searches fuzzily, installs/removes across agents in one click, and browses the skills.sh marketplace with summaries. Local-first, AI optional, open source.
+**English**: Skills Shelf is a cross-platform desktop manager for AI agent skills. It scans 50+ agents, merges duplicates, explains every skill in Chinese, searches fuzzily, installs/removes across agents in one click, and browses the skills.sh marketplace with summaries. Local-first, AI optional, open source.
