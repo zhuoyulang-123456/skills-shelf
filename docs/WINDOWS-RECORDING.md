@@ -177,7 +177,7 @@ Remove-Item -Recurse -Force "$env:USERPROFILE\skills-demo"
 # 删除计划任务
 Unregister-ScheduledTask -TaskName 'SkillsShelfRecord' -Confirm:$false
 
-# 重新打开正常实例
+# 重新打开正常实例（仅限交互式 PowerShell；SSH 里直接 Start-Process 会落到 Session 0）
 Start-Process "$env:LOCALAPPDATA\Programs\Skills Shelf\Skills Shelf.exe"
 ```
 
@@ -185,7 +185,8 @@ Start-Process "$env:LOCALAPPDATA\Programs\Skills Shelf\Skills Shelf.exe"
 
 ## 8. 注意
 
-- **不要通过 SSH 直接 `Start-Process` 启动 GUI**：会落到 Session 0，GPU 初始化失败、窗口不可见；必须用 `launch-demo.ps1` 的 Interactive 计划任务。
+- **不要通过 SSH 直接 `Start-Process` 启动 GUI**：会落到 Session 0，GPU 初始化失败、窗口不可见；必须用 `launch-demo.ps1` 的 Interactive 计划任务。录屏和手动操作要在 Windows 桌面上进行。
+- 如果是在 Windows 桌面的 PowerShell 里运行，`launch-demo.ps1` 同样可用；它只是多了一层计划任务，不影响录制。
 - 计划任务在应用运行期间会保持“正在运行”状态，这是正常的（父进程需要活着，子进程才不会被结束）。
 - 应用未签名；如果系统弹 SmartScreen，选择「更多信息 → 仍要运行」。
 - 不要录制或展示 `settings.json` 里的 Key、真实用户名路径、真实技能列表。
